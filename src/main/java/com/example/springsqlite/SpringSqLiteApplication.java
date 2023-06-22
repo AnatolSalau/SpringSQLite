@@ -11,4 +11,5 @@ public class SpringSqLiteApplication {
       public static void main(String[] args) {
              SpringApplication.run(SpringSqLiteApplication.class, args);
       }
+
 }
