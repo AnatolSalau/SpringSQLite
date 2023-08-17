@@ -15,7 +15,7 @@ import lombok.*;
       name = "patients_id_seq", allocationSize = 1)
 public class Patient {
       @Id
-      @GeneratedValue(strategy = GenerationType. SEQUENCE, generator =
+      @GeneratedValue(strategy = GenerationType.SEQUENCE, generator =
             "patients_id_seq")
       @Column(nullable = false)
       private Integer id;
